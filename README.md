@@ -1,5 +1,5 @@
 # pBuild for Travis-CI
-PebbleBuild is a tool for building pebble projects in travis CI.
+PebbleBuild is a tool for building pebble projects in Travis CI.
 
 ## Installation
 1. To install pBuild, copy .travis.yml, before_install.sh, and build.sh to your pebble app's github repository. 
