@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-echo 'Installing Pebble SDK Dependencies...'
+echo 'pBuild 1.0'
+echo 'Installing Pebble SDK and its Dependencies...'
 
 cd ~ 
 
@@ -20,11 +21,7 @@ cd ~/pebble-dev/${PEBBLE_SDK}
 # Extract the toolchain
 tar -zxf ~/arm-cs-tools-ubuntu-universal.tar.gz
 
-# Add the pebble tool to your path and reload your shell configuration
-sudo echo 'export PATH=~/pebble-dev/${PEBBLE_SDK}/bin:$PATH' >> ~/.bash_profile
-. ~/.bash_profile
-
-export PATH=~/pebble-dev/${PEBBLE_SDK}/bin:$PATH
+# (Add the pebble tool to your path and reload your shell configuration) isn't used because it fails
 
 # Install pip and virtualenv
 sudo apt-get install python-pip python2.7-dev
