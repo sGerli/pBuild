@@ -6,7 +6,7 @@ cd ~
 
 # Get the Pebble SDK and toolchain
 PEBBLE_SDK_VER=${PEBBLE_SDK#PebbleSDK-}
-wget https://sdk.getpebble.com/download/${PEBBLE_SDK_VER} -O PebbleSDK.tar.gz
+wget "https://sdk.getpebble.com/download/${PEBBLE_SDK_VER}?source=pbuild" -O PebbleSDK.tar.gz
 wget http://assets.getpebble.com.s3-website-us-east-1.amazonaws.com/sdk/arm-cs-tools-ubuntu-universal.tar.gz
 
 # Build the Pebble directory
