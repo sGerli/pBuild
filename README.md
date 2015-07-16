@@ -12,5 +12,9 @@ It is really useful when using the Pebble SDK.
 2. If you get any other build script error add an issue.
 3. If you get a error that might not be general, it's personal, send a email to support@igerli.com.
 
+## Contributors
+* Stefano Gerli (@sGerli)
+* Ben Combee (unwiredben)
+
 ## Credits
 pBuild is based on [Sawyer Pangborn's travis-ci-pebble](https://github.com/spangborn/travis-ci-pebble)
