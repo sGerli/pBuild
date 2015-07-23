@@ -20,9 +20,9 @@
 
     <section class="main-content">
       <h1>
-<a id="pbuild" class="anchor" href="#pbuild" aria-hidden="true"><span class="octicon octicon-link"></span></a>pBuild\</h1>
+<a id="pbuild-for-travis-ci" class="anchor" href="#pbuild-for-travis-ci" aria-hidden="true"><span class="octicon octicon-link"></span></a>pBuild for Travis-CI</h1>
 
-<p>A tool for building pebble projects in Travis CI.
+<p>PebbleBuild is a tool for building pebble projects in Travis CI.
 It is really useful when using the Pebble SDK.</p>
 
 <h2>
@@ -35,12 +35,20 @@ It is really useful when using the Pebble SDK.</p>
 </ol>
 
 <h2>
+<a id="settings" class="anchor" href="#settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Settings</h2>
+
+<ul>
+<li>Pebble Analytics are on for default. If you want to disable it in before_install.sh modify the 8th line and change <code>touch ~/pebble-dev/ENABLE_ANALYTICS</code> to <code>touch ~/pebble-dev/NO_TRACKING</code>
+</li>
+</ul>
+
+<h2>
 <a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
 
 <ol>
 <li>If a resource is not found, check its path because it's case sensitive.</li>
 <li>If you get any other build script error add an issue.</li>
-<li>If you get a error that might not be general, it's personal, send a email to <a href="mailto:support@igerli.com">support@igerli.com</a>.</li>
+<li>If you get a error that isn't be general, send a email to <a href="mailto:support@igerli.com">support@igerli.com</a>.</li>
 </ol>
 
 <h2>
@@ -48,7 +56,7 @@ It is really useful when using the Pebble SDK.</p>
 
 <ul>
 <li>Stefano Gerli (<a href="https://github.com/sGerli" class="user-mention">@sGerli</a>)</li>
-<li>Ben Combee (unwiredben)</li>
+<li>Ben Combee (<a href="https://github.com/unwiredben" class="user-mention">@unwiredben</a>)</li>
 </ul>
 
 <h2>
