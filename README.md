@@ -7,6 +7,9 @@ It is really useful when using the Pebble SDK.
 2. Then go to travis, go into your repoditory (in Travis) and go to Settings -> Settings and into Enviromental Variables. 
 3. Add new enviromental variables: `PEBBLE_SDK=PebbleSDK-3.0` (this is the pebble sdk version to use for compilation) and check "Display value in build logs", and `PEBBLE_PROJECT_PATH=[RepoOwnerUsername]/[RepoName]/[PebbleProjectPathinRepo]` (Only add the PebbleProjectPathinRepo if needed). Example: `PEBBLE_PROJECT_PATH=sGerli/pBuild` (this one is case sensitive) and check "Display value in build logs"
 
+## Settings
+* Pebble Analytics are on for default. If you want to disable it in before_install.sh modify the 8th line and change `touch ~/pebble-dev/ENABLE_ANALYTICS` to `touch ~/pebble-dev/NO_TRACKING`
+
 ## Troubleshooting
 1. If a resource is not found, check its path because it's case sensitive.
 2. If you get any other build script error add an issue.
