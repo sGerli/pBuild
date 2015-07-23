@@ -10,11 +10,11 @@ It is really useful when using the Pebble SDK.
 ## Troubleshooting
 1. If a resource is not found, check its path because it's case sensitive.
 2. If you get any other build script error add an issue.
-3. If you get a error that might not be general, it's personal, send a email to support@igerli.com.
+3. If you get a error that isn't be general, send a email to support@igerli.com.
 
 ## Contributors
 * Stefano Gerli (@sGerli)
-* Ben Combee (unwiredben)
+* Ben Combee (@unwiredben)
 
 ## Credits
 pBuild is based on [Sawyer Pangborn's travis-ci-pebble](https://github.com/spangborn/travis-ci-pebble)
