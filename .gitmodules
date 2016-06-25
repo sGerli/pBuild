@@ -1,0 +1,3 @@
+[submodule "test-app"]
+	path = test-app
+	url = https://github.com/pebble-hacks/isotime/
