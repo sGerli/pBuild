@@ -4,6 +4,10 @@ echo 'pBuild 1.0'
 echo 'Installing Pebble SDK and its Dependencies...'
 
 cd ~
+
+// Install NPM 3
+npm install npm@3 -g
+
 mkdir -p ~/pebble-dev
 mkdir -p ~/.pebble-sdk
 touch ~/.pebble-sdk/ENABLE_ANALYTICS
@@ -25,4 +29,3 @@ if [ ! -d $HOME/pebble-dev/${PEBBLE_SDK} ]; then
   pip install -r requirements.txt
   deactivate
 fi
-
