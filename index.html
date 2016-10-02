@@ -29,30 +29,30 @@
       <div class="inner clearfix">
         <section id="main-content">
           <h1>
-<a id="pbuild-for-travis-ci" class="anchor" href="#pbuild-for-travis-ci" aria-hidden="true"><span class="octicon octicon-link"></span></a>pBuild for Travis-CI</h1>
+<a id="pbuild-for-travis-ci" class="anchor" href="#pbuild-for-travis-ci" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pBuild for Travis-CI</h1>
 
 <p>PebbleBuild is a tool for building pebble projects in Travis CI.
 It is really useful when using the Pebble SDK.</p>
 
 <h2>
-<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup</h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
 
 <ol>
 <li>To install pBuild, copy .travis.yml, before_install.sh, and build.sh to your pebble app's github repository.  Make sure the two .sh files are marked executable, using <code>git update-index --chmod=+x</code> if necessary.</li>
 <li>Then go to travis, go into your repoditory (in Travis) and go to Settings -&gt; Settings and into Enviromental Variables. </li>
-<li>Add new enviromental variables: <code>PEBBLE_SDK=pebble-sdk-4.2-linux64</code> (this is the pebble sdk version to use for compilation) and check "Display value in build logs", and <code>PEBBLE_PROJECT_PATH=[RepoOwnerUsername]/[RepoName]/[PebbleProjectPathinRepo]</code> (Only add the PebbleProjectPathinRepo if needed). Example: <code>PEBBLE_PROJECT_PATH=sGerli/pBuild</code> (this one is case sensitive) and check "Display value in build logs"</li>
+<li>Add new enviromental variables: <code>PEBBLE_SDK=PebbleSDK-3.4</code> (this is the pebble sdk version to use for compilation) and check "Display value in build logs", and <code>PEBBLE_PROJECT_PATH=[RepoOwnerUsername]/[RepoName]/[PebbleProjectPathinRepo]</code> (Only add the PebbleProjectPathinRepo if needed). Example: <code>PEBBLE_PROJECT_PATH=sGerli/pBuild</code> (this one is case sensitive) and check "Display value in build logs"</li>
 </ol>
 
 <h2>
-<a id="settings" class="anchor" href="#settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Settings</h2>
+<a id="settings" class="anchor" href="#settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings</h2>
 
 <ul>
-<li>Pebble Analytics are on for default. If you want to disable it in before_install.sh modify the 9th line and change <code>touch ~/.pebble-sdk/ENABLE_ANALYTICS</code> to <code>touch ~/.pebble-sdk/NO_TRACKING</code>
+<li>Pebble Analytics are on for default. If you want to disable it in before_install.sh modify the 8th line and change <code>touch ~/pebble-dev/ENABLE_ANALYTICS</code> to <code>touch ~/pebble-dev/NO_TRACKING</code>
 </li>
 </ul>
 
 <h2>
-<a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
+<a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Troubleshooting</h2>
 
 <ol>
 <li>If a resource is not found, check its path because it's case sensitive.</li>
@@ -61,16 +61,15 @@ It is really useful when using the Pebble SDK.</p>
 </ol>
 
 <h2>
-<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h2>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributors</h2>
 
 <ul>
 <li>Stefano Gerli (<a href="https://github.com/sGerli" class="user-mention">@sGerli</a>)</li>
 <li>Ben Combee (<a href="https://github.com/unwiredben" class="user-mention">@unwiredben</a>)</li>
-<li>Josh Austin (<a href="https://github.com/nonproftechie" class="user-mention">@nonproftechie</a>)</li>
 </ul>
 
 <h2>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
 
 <p>pBuild is based on <a href="https://github.com/spangborn/travis-ci-pebble">Sawyer Pangborn's travis-ci-pebble</a></p>
         </section>
