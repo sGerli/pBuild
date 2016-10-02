@@ -3,7 +3,7 @@
 npm install npm@3 -g
 
 set -e
-echo 'pBuild 1.4'
+echo 'pBuild 1.5'
 echo 'Installing Pebble SDK and its Dependencies...'
 
 cd ~
